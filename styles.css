@@ -1,0 +1,111 @@
+body {
+    font-family : "Verdana", Geneva, Tahoma, sans-serif;
+    border-style : hidden;
+    border-width : 12rem;
+    background-color : #20383f;
+    border-color : #f9eebd;
+    color : #f9eebd;
+    }
+    a {
+    color : #f9eebd;
+    text-decoration-line : underline;
+    }
+    a:hover {
+    color : hotpink;
+    text-decoration : none;
+    cursor : pointer;
+    }
+
+    .header {
+    background : url("images/mountains.avif");
+    position : relative;
+    text-align : center;
+    width : 100%;
+    height : 1000px;
+    background-size : cover;
+    background-attachment : fixed;
+    position : relative;
+    overflow : hidden;
+    border-width : 3rem;
+    border-radius : 25px;
+    padding : 20px;
+    }
+   
+    figure {
+    text-align : center;
+    opacity : 1.0;
+    padding : 4px;
+    margin : auto;
+    }
+    figure:hover {
+    opacity : 0.5;
+    cursor : pointer;
+    }
+    .intro {
+    text-align : center;
+    border : #87b1b3;
+    border-style : groove;
+    padding : 30px;
+    margin : 50px;
+    font-weight : 600;
+    }
+    nav ul {
+    background-color : #3e6972;
+    list-style : none;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-evenly;
+    border : #f9eebd solid 3px;
+    color : whitesmoke;
+    padding : 30px;
+    margin : 50px;
+    }
+    .aboutme {
+    text-align : center;
+    border : #87b1b3;
+    border-style : groove;
+    padding : 30px;
+    margin : 50px;
+    }
+    .myeducation {
+    text-align : center;
+    border : #87b1b3;
+    border-style : groove;
+    padding : 30px;
+    margin : 50px;
+    }
+    .priorexperience {
+    text-align : center;
+    border : #87b1b3;
+    border-style : groove;
+    padding : 30px;
+    margin : 50px;
+    }
+    .myskills {
+    text-align : left;
+    border : #87b1b3;
+    border-style : groove;
+    padding : 30px;
+    margin : 50px;
+    }
+    .myinterests {
+    text-align : center;
+    border : #87b1b3;
+    border-style : groove;
+    padding : 30px;
+    margin : 50px;
+    }
+    .mysocialmedia {
+    text-align : center;
+    border : #87b1b3;
+    border-style : groove;
+    padding : 30px;
+    margin : 50px;
+    }
+    .mysocialmedia li {
+    text-align : left;
+    list-style : none;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-evenly;
+    }
